@@ -1,0 +1,17 @@
+meta(charset="utf-8")
+meta(http-equiv="x-ua-compatible", content="ie=edge")
+meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+
+title 
+    block site_title
+        = config.title
+block description
+    meta(name="description", content= config.description ? config.description : 'A Blog Powered By Hexo')
+
+meta(name="viewport", content="width=device-width, initial-scale=1")
+meta(name="theme-color", content="#FB4D42")
+meta(name="google-site-verification", content="rk-Nc1c8xi1CdZ0ZQIVV-ifsndGrHanIuSHI-yTHZYE")
+link(rel="short icon", href=url_for(theme.favicon))
+link(rel="stylesheet", href=url_for("css/apollo.css"))
+link(rel="stylesheet", href=url_for("css/zoom.css"))
+

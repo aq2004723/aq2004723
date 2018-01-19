@@ -1,0 +1,15 @@
+extends partial/layout
+
+block container
+    .wrap
+        include mixins/post
+        .tagcloud
+            != tagcloud(tags)
+        +postList()
+
+block pagination
+    include mixins/paginator
+    +home()
+
+block copyright
+    include partial/copyright

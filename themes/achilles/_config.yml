@@ -1,0 +1,20 @@
+menu:
+    Blog: /
+    Archive: /archives/
+    GitHub: https://github.com/aq2004723
+    Rss: /atom.xml
+
+favicon: /favicon.png
+logo: /favicon.png
+
+# Comment
+# e.g disqus: seansun
+disqus: geniustanley
+duoshuo:
+
+# Analytics
+# google-analytics:
+ga: UA-112787972-1
+
+# Copyright Infomation
+startyear: 2017
