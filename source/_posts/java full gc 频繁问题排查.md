@@ -1,4 +1,7 @@
-# java full gc 频繁
+title: java full gc 频繁问题排查
+---
+
+# java full gc 频繁问题排查
 排查full gc问题首先要知道什么情况下会发生full gc
 
 
@@ -52,15 +55,3 @@ promotion failed是在进行Minor GC时，survivor space放不下、对象只能
 
 ## Serial Old GC／PS MarkSweep GC／Parallel Old GC的触发则是在要执行Young GC时候预测其promote的object的总size超过老生代剩余size
 解决方案：增大old gen 空间
-
-
-
-
-
-
-
-
-
-
-
-
