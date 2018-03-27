@@ -26,7 +26,7 @@ title: jvm垃圾回收总结
 
 >为了解决内存浪费的问题
 将内存区域化为一个Eden区和两个survivor区，每次使用Eden区和一个survivor区
-过程是一个survivor区 将存活对象复制到另一个survivor区
+过程是一个对eden区和一个survivor区进行垃圾回收 将存活对象复制到另一个survivor区
 
 
 #### 标记-整理
